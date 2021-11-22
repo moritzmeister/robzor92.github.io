@@ -358,22 +358,16 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
-    Quick Start
-  </a>
-  
-    <nav class="md-nav" aria-label="Quick Start">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#installer-quick-start-with-azure-cli-or-gcp-cli" class="md-nav__link">
-    Installer Quick Start with Azure CLI or GCP CLI
+  <a href="#installer-on-premise" class="md-nav__link">
+    Installer - On-premise
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#installer-azure-cli-or-gcp-cli" class="md-nav__link">
+    Installer - Azure CLI or GCP CLI
+  </a>
   
 </li>
       
@@ -429,15 +423,12 @@
 <p>Hopsworks and its <a href="https://docs.hopsworks.ai/feature-store-api/latest/">Feature Store</a> are an open source data-intensive AI platform used for the development and operation of machine learning models at scale.</p>
 <p><img src="assets/images/architecture.svg"></p>
 <p><a name="quick"></a></p>
-<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Permanent link">#</a></h2>
-<p><div class="highlight"><pre><span></span><code>bash &lt;<span class="o">(</span>curl -s https://repo.hops.works/installer/latest/hopsworks-installer.sh<span class="o">)</span>
-</code></pre></div>
-Recommended minimum <a href="https://hopsworks.readthedocs.io/en/stable/getting_started/installation_guide/platforms/hopsworks-installer.html#requirements">specification</a>.</p>
-<p>The <a href="https://hopsworks.readthedocs.io/en/stable/getting_started/installation_guide/platforms/hopsworks-installer.html">Hopsworks Installer</a> takes roughly 1-2 hrs to complete, depending on your bandwidth.</p>
-<h3 id="installer-quick-start-with-azure-cli-or-gcp-cli">Installer Quick Start with Azure CLI or GCP CLI<a class="headerlink" href="#installer-quick-start-with-azure-cli-or-gcp-cli" title="Permanent link">#</a></h3>
-<p><div class="highlight"><pre><span></span><code><span class="n">bash</span> <span class="o">&lt;</span><span class="p">(</span><span class="n">curl</span> <span class="o">-</span><span class="n">s</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">repo</span><span class="o">.</span><span class="n">hops</span><span class="o">.</span><span class="n">works</span><span class="o">/</span><span class="n">installer</span><span class="o">/</span><span class="n">latest</span><span class="o">/</span><span class="n">hopsworks</span><span class="o">-</span><span class="n">cloud</span><span class="o">-</span><span class="n">installer</span><span class="o">.</span><span class="n">sh</span><span class="p">)</span>
-</code></pre></div>
-If you have the Azure or GCP CLI utilities installed (on a Linux machine), then the <a href="https://hopsworks.readthedocs.io/en/stable/getting_started/installation_guide/platforms/hopsworks-cloud-installer.html">Hopsworks Cloud Installer</a> (Hopsworks-cloud-installer.sh) will both install Hopsworks and provision the VMs in one command.</p>
+<h2 id="installer-on-premise">Installer - On-premise<a class="headerlink" href="#installer-on-premise" title="Permanent link">#</a></h2>
+<p>Follow the <a href="https://hopsworks.readthedocs.io/en/stable/getting_started/installation_guide/platforms/hopsworks-installer.html">installation instructions</a>.</p>
+<p>The installation takes roughly 1-2 hrs to complete, depending on your bandwidth.</p>
+<h2 id="installer-azure-cli-or-gcp-cli">Installer - Azure CLI or GCP CLI<a class="headerlink" href="#installer-azure-cli-or-gcp-cli" title="Permanent link">#</a></h2>
+<p>Follow the <a href="https://hopsworks.readthedocs.io/en/stable/getting_started/installation_guide/platforms/hopsworks-cloud-installer.html">installation instructions</a>.</p>
+<p>If you have the Azure or GCP CLI utilities installed (on a Linux machine), then the Hopsworks-cloud-installer.sh will both install Hopsworks and provision the VMs in one command.</p>
 <h2 id="development-and-operational-ml-on-hopsworks">Development and Operational ML on Hopsworks<a class="headerlink" href="#development-and-operational-ml-on-hopsworks" title="Permanent link">#</a></h2>
 <p>You can develop and run Python, Spark, and Flink applications on Hopsworks - in Jupyter notebooks, as jobs, or even notebooks as jobs. You can build production pipelines with the bundled Airflow, and even run ML training pipelines with GPUs in notebooks on Airflow. You can train models on as many GPUs as are installed in a Hopsworks cluster and easily share them among users.</p>
 <h2 id="whos-behind-hopsworks">Who’s behind Hopsworks?<a class="headerlink" href="#whos-behind-hopsworks" title="Permanent link">#</a></h2>
