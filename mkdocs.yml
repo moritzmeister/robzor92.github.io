@@ -110,7 +110,6 @@ nav:
       - Getting Started: setup_installation/gcp/getting_started.md
       - Limiting Permissions: setup_installation/gcp/restrictive_permissions.md
       - Cluster Creation: setup_installation/gcp/cluster_creation.md
-    - On-Prem: https://www.hopsworks.ai/contact/main
     - Common:
       - Services: setup_installation/common/services.md
       - Adding and Removing workers: setup_installation/common/adding_removing_workers.md
